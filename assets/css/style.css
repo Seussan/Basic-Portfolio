@@ -1,0 +1,189 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    background: #084C61;
+    font-family: Arial, sans-serif;
+   line-height: 24px;
+}
+
+header{
+    background: #1A202C;
+}
+
+main{
+    padding: 60px 0;
+    background: #9284F4;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+p {
+    margin-bottom: 18px;
+}
+
+nav{
+    float: right;
+    width: 50%;
+    text-align: right;
+    margin-top: 15px;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover{
+    border-bottom: 5px solid #63B931;
+}
+
+nav ul li a.active{
+    border-bottom: 5px solid #084C61;
+}
+
+.brand{
+    float: left;
+    width: 25%;
+    padding: 24px;
+    padding-left: 0;
+}
+
+.brand a{
+    display: block;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.card {
+    background: #fff;
+    box-shadow: 0px 2px 20px #084C61;
+    padding: 20px;
+}
+
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.wrapper:after {
+    content:" ";
+    display:table;
+    clear:both;
+}
+
+.content{
+    width: 70%;
+    float: left;
+}
+
+.content h1{
+    font-size: 32px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #cecece;
+    margin-bottom: 10px;
+}
+
+.content input{
+    color: #AEB8C3;
+}
+
+img.about-me-pic{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;  
+    border: 1px solid #ccc;  
+    padding: 5px;
+    box-shadow: 0px 2px 20px #777;
+}
+
+.portfolio li{
+    position:relative;
+    float:left;
+    padding: 20px;
+}
+
+.portfolio li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background: #084C61;
+    color: #000;
+    box-shadow: 0px 2px 20px #777;
+
+    left: 20px;
+    position:absolute;
+    text-align:center;
+    top: 150px;
+    width: 250px;
+}
+
+.sidebar{
+    width: 25%;
+    float: right;
+}
+
+.sidebar h3{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.sidebar ul li a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-indent: -999999em;
+}
+
+.sidebar ul li{
+    display: inline-block;
+}
+
+a.github {
+    background-color: #000;
+}
+
+a.github:hover {
+    background-color: #4078c0;
+}
+
+a.linkedin {
+    background-color: #0077b5;
+}
+
+a.linkedin:hover {
+    background-color: #dd5143;
+}
+
+a.stackoverflow {
+    background-color: #f48024;
+}
+
+a.stackoverflow:hover {
+    background-color: #222426;
+}
